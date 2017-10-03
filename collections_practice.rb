@@ -42,3 +42,7 @@ def sum_array(array)
   end
   total
 end
+
+#array.inject do |sum, x|
+# sum + x
+#end
