@@ -30,7 +30,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find_all do |word| #or array.select do |word|
+  array.find_all do |word|    #or array.select do |word|
     word[0] == "a"
   end
 end
@@ -43,7 +43,7 @@ def sum_array(array)
   total
 end
 
-#array.inject do |sum, x|
+#array.inject do |sum, x|         OR array.inject(:+)
 # sum + x
 #end
 
@@ -52,7 +52,7 @@ def add_s(array)
     if array[1] == word
       word
     else
-      word + "s" 
+      word + "s"
     end
   end
   end
